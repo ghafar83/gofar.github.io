@@ -1,0 +1,267 @@
+/* -------------------- NAVIGASI -------------------- */
+#navigasi {
+  background-color: #3f798c;
+}
+#navbarNavDropdown a {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: large;
+}
+#navbarNavDropdown .dropdown-item {
+  color: #3f798c;
+}
+#navigasi ul li a:hover {
+  color: #beaf87;
+}
+#navigasi .active {
+  color: #beaf87;
+}
+/* -------------------- AKHIR NAVIGASI -------------------- */
+/* -------------------- TOMBOL JOIN -------------------- */
+
+/* -------------------- AKHIR TOMBOL JOIN -------------------- */
+/* -------------------- HERO -------------------- */
+#hero .jumbotron {
+  background-size: cover;
+}
+#hero .display-4 {
+  padding-top: 7rem;
+}
+#hero h1,
+h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#hero .display-3 span {
+  background-color: #3f798c;
+  color: #beaf87;
+}
+/* -------------------- AKHIR HERO -------------------- */
+/* -------------------- JT -------------------- */
+#jt .container {
+  padding-top: 7rem;
+}
+#jt .container .container {
+  background-color: black;
+  height: 300px;
+}
+
+/* -------------------- AKHIR JT -------------------- */
+/* -------------------- TENTANG KAMI -------------------- */
+
+#about hr {
+  width: 50%;
+  margin: auto;
+}
+h1 {
+  color: #beaf87;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+#about h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+/* -------------------- AKHIR TENTANG KAMI -------------------- */
+/* -------------------- FITURED -------------------- */
+#fitured {
+  padding-bottom: 5rem;
+}
+#fitured img {
+  height: 510px;
+  width: 100%;
+}
+/* -------------------- AKHIR FITURED -------------------- */
+#client *.card {
+  background-color: #8c8b3f;
+  width: 350px;
+  padding: 5px;
+}
+#client .row {
+  padding-bottom: 2rem;
+}
+
+#card-logo {
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  border: 7px solid #beaf87;
+  border-radius: 20%;
+}
+#tentang-property {
+  padding-left: 50px;
+}
+#tentang-property,
+#fasilitas h1 {
+  padding-top: 30px;
+}
+#card-logo img {
+  width: 250px;
+}
+#tentang-property p {
+  font-size: 20px;
+  text-align: justify;
+}
+.demos img {
+  height: 200px;
+  border-radius: 10%;
+}
+/* -------------------- FOOTHER -------------------- */
+#foother {
+  background-color: #3f798c;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+#foother h4,
+a {
+  color: #beaf87;
+  text-decoration: none;
+}
+
+#copyright p {
+  content: "";
+  display: flex;
+  height: 4rem;
+  align-items: center;
+  color: #beaf87;
+}
+/* -------------------- AKHIR FOOTHER -------------------- */
+/* -------------------- Desctop Version -------------------- */
+@media (min-width: 992px) {
+  .tbljoin {
+    border-radius: 40px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+    color: #beaf87;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.7);
+  }
+  #hero {
+    padding-top: 5rem;
+  }
+  #hero .container {
+    height: 570px;
+  }
+  #hero .tbljoin {
+    font-size: 70%;
+  }
+  #about {
+    padding: 5rem 5rem 6rem 5rem;
+  }
+  #jt .container .container h1 {
+    font-size: 3.5rem;
+  }
+  #JdlDetail .col-md-12 {
+    padding-top: 1.5rem;
+  }
+  #tentang-property,
+  #fasilitas h1 {
+    padding-top: 0px;
+  }
+  #yt {
+    width: 800px;
+    padding-bottom: 5rem;
+  }
+  /* Promo */
+  #Promo2023 {
+    padding-bottom: 1rem;
+  }
+  #Promo2023 h1 {
+    color: #7e7c0e;
+    text-shadow: 3px, 3px, 3px rgba(204, 11, 11, 0.7);
+  }
+  #Promo2023 img {
+    height: 500px;
+  }
+  #Promo2023 .carousel-inner {
+    background-color: #7e7c0e;
+  }
+  /* Akhir Promo */
+  /* Our Tiem */
+  #OurTiem {
+    padding-top: 0px;
+  }
+  #OurTiem img {
+    width: 225px;
+    border: 5px solid #beaf87;
+    margin-top: 10px;
+  }
+  #OurTiem .col-lg-4 {
+    padding: 15px;
+  }
+}
+/* -------------------- Akhir Desctop Version -------------------- */
+/* -------------------- GALERI -------------------- */
+#galeri section {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px;
+}
+#galeri section ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+#galeri section ul li {
+  list-style: none;
+  background: red;
+  padding: 12px, 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+#galeri section ul li .active {
+  background: blue;
+  color: antiquewhite;
+}
+.produk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.produk .item {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  display: block;
+}
+.produk .item.hide {
+  display: none;
+}
+.produk .item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* -------------------- AKHIR GALERI -------------------- */
+/* Add WA floating button CSS */
+.floating {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.fab-icon {
+  margin-top: 16px;
+}
